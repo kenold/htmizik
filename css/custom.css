@@ -2,6 +2,13 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 768px) {
+  .row #menu-tabs {
+    display: none;
+  }
+}
+
 .bg-faded {
     background-color: #fff;
 }
