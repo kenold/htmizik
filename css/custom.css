@@ -1,0 +1,152 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.bg-faded {
+    background-color: #fff;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+
+.navbar-collapse .container-fluid {
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid #55595c;
+}
+
+.navbar-collapse h4 {
+  color: #818a91;
+}
+
+.navbar-collapse .text-muted {
+  color: #818a91;
+}
+
+.about {
+  float: left;
+  max-width: 30rem;
+  margin-right: 3rem;
+}
+
+.social a {
+  font-weight: 500;
+  color: #eceeef;
+}
+.social a:hover {
+  color: #fff;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.card {
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+/*.card > img {
+  margin-bottom: .75rem;
+}*/
+
+.card-block {
+    padding: 0.65rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+.card-title a {
+  color: #444;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.card-subtitle.text-muted {
+  text-transform: uppercase;
+  line-height: 20px;
+  color: #a8a8a8;
+  font-size: 11px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+#menu-tabs ul
+{
+  margin-bottom: 20px;
+  padding: 0;
+  list-style-type: none;
+}
+
+#menu-tabs li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 25px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+#menu-tabs a {
+  color: #444;
+  text-decoration: none;
+}
+
+#menu-tabs li.active a {
+  display: inline-block;
+  border-bottom: 3px solid #0275d8;
+  color: #0275d8;
+  padding: 0 0 10px 0;
+}
+
+#menu-tabs li.active a:hover {
+  text-decoration: none;
+}
+
+.row #menu-tabs {
+  padding-left: .9375rem;
+}
+
+.row .section-title {
+  padding-left: .9375rem;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: normal;
+  letter-spacing: 0;
+}
+
+.row {
+  margin-bottom:  20px;
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
