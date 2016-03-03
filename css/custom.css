@@ -132,8 +132,8 @@ body {
 .row .section-title {
   padding-left: .9375rem;
   font-size: 18px;
+  font-weight: bold;
   line-height: 28px;
-  font-weight: normal;
   letter-spacing: 0;
 }
 
