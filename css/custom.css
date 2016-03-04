@@ -9,19 +9,19 @@ body {
  */
 
 /* LESS THAN 75 */
-@media (max-width: 74.9em) { 
+@media screen and (max-width: 74.9em) { 
   body {background-color: pink;}
   .row #menu-mobile { display: none;}
 }
 
 /* LESS THAN 62 */
-@media (max-width: 61.9em) { 
+@media screen and (max-width: 61.9em) { 
   body {background-color: blue;}
   .row #menu-mobile { display: none;}
 }
 
 /* LESS THAN 48 */
-@media (max-width: 47.9em) { 
+@media screen and (max-width: 47.9em) { 
   body {background-color: green;} 
   .row #menu-mobile { display: none;}
   
@@ -30,7 +30,7 @@ body {
 }
 
 /* LESS THAN 34 */
-@media (max-width: 33.9em) { 
+@media screen and (max-width: 33.9em) { 
   body {background-color: red;}
   
   /* hide 3rd menu-filter list and above */
