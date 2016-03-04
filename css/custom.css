@@ -83,11 +83,18 @@ body {
 
 .jumbotron {
   padding-top: 6rem;
+  background-color: #44da82;
 }
 
 
 .jumbotron-heading {
-  font-weight: 300;
+  line-height: 93px;
+  font-size: 72px;
+  font-weight: 700 !important;
+  font-family: "Montserrat", arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0;
 }
 
 .jumbotron .container {
@@ -175,6 +182,7 @@ body {
   font-weight: bold;
   line-height: 28px;
   letter-spacing: 0;
+  text-transform: uppercase;
 }
 
 .row {
