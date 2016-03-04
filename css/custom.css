@@ -86,8 +86,8 @@ body {
   background-color: #44da82;
 }
 
-
 .jumbotron-heading {
+  color: #fff;
   line-height: 93px;
   font-size: 72px;
   font-weight: 700 !important;
@@ -95,6 +95,10 @@ body {
   text-transform: uppercase;
   letter-spacing: 5px;
   margin: 0;
+}
+
+.jumbotron p:first-of-type {
+  color: #fff;
 }
 
 .jumbotron .container {
