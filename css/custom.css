@@ -24,14 +24,16 @@ body { background-color: skyBlue; }
 @media (max-width: 47.9em) { 
   body {background-color: green;} 
   .row #menu-mobile { display: none;}
+  #menu-tabs ul li:nth-child(4) { display: none};
 }
 
 /* LESS THAN 34 */
 @media (max-width: 33.9em) { 
   body {background-color: red;}
-  .row #menu-tabs { display: none;}
-  .row #menu-mobile { display: block;}
+  #menu-tabs ul li:nth-child(n+3) {
+    display: none;
   }
+}
 
 /* ********** END MEDIA QUERIES / BREAKPOINTS ********** */
 
