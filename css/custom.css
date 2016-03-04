@@ -4,9 +4,9 @@ body {
 
 /* ********** MEDIA QUERIES / BREAKPOINTS ********** */
 
-/* MORE THAN 75 */
-body { background-color: skyBlue; }
-.row #menu-mobile { display: none;}
+/* MORE THAN 75
+   All show
+ */
 
 /* LESS THAN 75 */
 @media (max-width: 74.9em) { 
@@ -24,12 +24,16 @@ body { background-color: skyBlue; }
 @media (max-width: 47.9em) { 
   body {background-color: green;} 
   .row #menu-mobile { display: none;}
-  #menu-tabs ul li:nth-child(4) { display: none};
+  
+  /* hide menu 4th menu item and above */
+  #menu-tabs ul li:nth-child(n+4) { display: none};
 }
 
 /* LESS THAN 34 */
 @media (max-width: 33.9em) { 
   body {background-color: red;}
+  
+  /* hide menu 3rd menu item and above */
   #menu-tabs ul li:nth-child(n+3) {
     display: none;
   }
