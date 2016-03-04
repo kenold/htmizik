@@ -41,6 +41,16 @@ body {
   #menu-filter ul li:nth-child(n+3) {
     display: none;
   }
+
+  h1.jumbotron-heading {
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .jumbotron p {
+    font-size: 15px;
+    font-weight: normal;
+  }
 }
 
 /* ********** END MEDIA QUERIES / BREAKPOINTS ********** */
