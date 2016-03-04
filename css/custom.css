@@ -2,42 +2,12 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-/* ********** MEDIA QUERIES / BREAKPOINTS ********** */
+/* ********** MEDIA QUERIES / BREAKPOINTS **********
+************* Mobile First ********************** */
 
-/* MORE THAN 75
-   All show
- */
+/* Extra small devices (portrait phones, less than ???px)
 
-/* LESS THAN 75 */
-@media screen and (max-width: 74.9em) { 
-  .row #menu-mobile { 
-    display: none;
-  }
-}
-
-/* LESS THAN 62 */
-@media screen and (max-width: 61.9em) { 
-  .row #menu-mobile {
-    display: none;
-  }
-}
-
-/* LESS THAN 48 */
-@media screen and (max-width: 47.9em) { 
-  .row #menu-mobile {
-    display: none;
-  }
-  
-  /* hide 4th menu-filter list and above */
-  #menu-filter ul li:nth-child(n+4) {
-    display: none;
-  }
-}
-
-/* LESS THAN 34 */
-@media screen and (max-width: 33.9em) { 
-  
-  /* hide 3rd menu-filter list and above */
+/* hide 3rd menu-filter list and above */
   #menu-filter ul li:nth-child(n+3) {
     display: none;
   }
@@ -50,6 +20,45 @@ body {
   .jumbotron p {
     font-size: 15px;
     font-weight: normal;
+  }
+
+/* Small devices (landscape phones, 34em and up) */
+@media (min-width: 34em) {
+  /* hide 4th menu-filter list and above */
+  #menu-filter ul li:nth-child(n+4) {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 48em and up) */
+@media screen and (min-width: 48em) {
+
+  #menu-filter ul li:nth-child(n+3) {
+    display: none;
+  }
+}
+
+/* Large devices (desktops, 62em and up) */
+@media screen and (min-width: 62em) {
+  #menu-filter ul li:nth-child(n) {
+    display: initial;
+  }
+
+  h1.jumbotron-heading {
+    line-height: 93px;
+    font-size: 72px
+  }
+
+  .jumbotron p {
+    font-size: 15px;
+    font-weight: normal;
+  }
+}
+
+/* Extra large devices (large desktops, 75em and up) */
+@media screen and (min-width: 75em) {
+  #menu-filter ul li:nth-child(n) {
+    display: initial;
   }
 }
 
