@@ -10,28 +10,32 @@ body {
 
 /* LESS THAN 75 */
 @media screen and (max-width: 74.9em) { 
-  body {background-color: pink;}
-  .row #menu-mobile { display: none;}
+  .row #menu-mobile { 
+    display: none;
+  }
 }
 
 /* LESS THAN 62 */
 @media screen and (max-width: 61.9em) { 
-  body {background-color: blue;}
-  .row #menu-mobile { display: none;}
+  .row #menu-mobile {
+    display: none;
+  }
 }
 
 /* LESS THAN 48 */
 @media screen and (max-width: 47.9em) { 
-  body {background-color: green;} 
-  .row #menu-mobile { display: none;}
+  .row #menu-mobile {
+    display: none;
+  }
   
   /* hide 4th menu-filter list and above */
-  #menu-filter ul li:nth-child(n+4) { display: none};
+  #menu-filter ul li:nth-child(n+4) {
+    display: none;
+  }
 }
 
 /* LESS THAN 34 */
 @media screen and (max-width: 33.9em) { 
-  body {background-color: red;}
   
   /* hide 3rd menu-filter list and above */
   #menu-filter ul li:nth-child(n+3) {
