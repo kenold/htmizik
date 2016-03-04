@@ -2,6 +2,40 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+/* ********** MEDIA QUERIES / BREAKPOINTS ********** */
+
+/* MORE THAN 75 */
+body { background-color: skyBlue; }
+.row #menu-mobile { display: none;}
+
+/* LESS THAN 75 */
+@media (max-width: 74.9em) { 
+  body {background-color: pink;}
+  .row #menu-mobile { display: none;}
+}
+
+/* LESS THAN 62 */
+@media (max-width: 61.9em) { 
+  body {background-color: blue;}
+  .row #menu-mobile { display: none;}
+}
+
+/* LESS THAN 48 */
+@media (max-width: 47.9em) { 
+  body {background-color: green;} 
+  .row #menu-mobile { display: none;}
+}
+
+/* LESS THAN 34 */
+@media (max-width: 33.9em) { 
+  body {background-color: red;}
+  .row #menu-tabs { display: none;}
+  .row #menu-mobile { display: block;}
+  }
+
+/* ********** END MEDIA QUERIES / BREAKPOINTS ********** */
+
+
 .bg-faded {
     background-color: #fff;
 }
