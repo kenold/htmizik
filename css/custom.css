@@ -25,7 +25,7 @@ body {
   body {background-color: green;} 
   .row #menu-mobile { display: none;}
   
-  /* hide menu 4th menu item and above */
+  /* hide 4th menu-filter list and above */
   #menu-filter ul li:nth-child(n+4) { display: none};
 }
 
@@ -33,7 +33,7 @@ body {
 @media (max-width: 33.9em) { 
   body {background-color: red;}
   
-  /* hide menu 3rd menu item and above */
+  /* hide 3rd menu-filter list and above */
   #menu-filter ul li:nth-child(n+3) {
     display: none;
   }
