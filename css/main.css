@@ -1,16 +1,19 @@
 body {
-  font-family: "Montserrat", Arial, sans-serif; }
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; }
 
 .bg-faded {
   background-color: #fff; }
 
 .row .section-title {
   padding-left: .9375rem;
-  font-size: 18px;
+  font-size: 35px;
+  color: #2c3e50;
   font-weight: bold;
   line-height: 28px;
   letter-spacing: 0;
-  text-transform: none; }
+  text-transform: none;
+  margin: 50px 0 25px;
+  font-weight: 700; }
 
 .row {
   margin-bottom: 20px; }
@@ -29,20 +32,28 @@ body {
 .card-block {
   padding: 0.65rem; }
 
-.card-text {
-  font-size: 85%; }
-
-.card-title a {
-  color: #444;
-  font-size: 14px;
-  line-height: 20px;
-  font-weight: bold; }
+.card-title {
+  margin-bottom: 0; }
+  .card-title a {
+    color: #444;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700; }
+    .card-title a:hover {
+      color: #44da82;
+      text-decoration: none; }
 
 .card-subtitle.text-muted {
   text-transform: uppercase;
   line-height: 20px;
   color: #a8a8a8;
   font-size: 11px; }
+
+.card-text {
+  font-size: 85%; }
+  .card-text a {
+    color: #808b96;
+    text-decoration: none; }
 
 .left {
   float: left; }
@@ -74,7 +85,7 @@ footer .footer-links li {
 
 footer h3 {
   color: #fff;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -93,35 +104,36 @@ footer .footer-links.footer-social .icon {
 footer .footer-logo {
   color: #fff;
   font-size: 24px;
-  font-family: "Montserrat", Arial, sans-serif;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   margin-bottom: 20px; }
 
 footer .footer-widget {
   margin-bottom: 30px; }
 
-#menu-filter ul {
-  margin-bottom: 20px;
-  padding: 0;
-  list-style-type: none; }
-
-#menu-filter li {
-  display: inline-block;
-  font-size: 16px;
-  font-weight: normal;
-  letter-spacing: 0;
-  line-height: 25px;
-  font-weight: bold;
-  margin-right: 20px; }
+#menu-filter {
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+  #menu-filter ul {
+    margin-bottom: 10px;
+    padding: 0;
+    list-style-type: none; }
+  #menu-filter li {
+    display: inline-block;
+    font-weight: normal;
+    line-height: 25px;
+    margin-right: 20px; }
 
 #menu-filter a {
-  color: #444;
+  color: #7f8c8d;
   text-decoration: none; }
 
 #menu-filter li.active a {
   display: inline-block;
   border-bottom: 3px solid #0275d8;
   color: #0275d8;
-  padding: 0 0 10px 0; }
+  padding: 0 0 8px 0; }
 
 #menu-filter li.active a:hover {
   text-decoration: none; }
