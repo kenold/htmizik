@@ -52,8 +52,7 @@ body {
 .card-text {
   font-size: 85%; }
   .card-text a {
-    color: #808b96;
-    text-decoration: none; }
+    color: #808b96; }
 
 .left {
   float: left; }
