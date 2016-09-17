@@ -15,8 +15,8 @@
     a {
         color: #444;
         font-size: 16px;
-        line-height: 20px;
         font-weight: 700;
+        line-height: 20px;
         &:hover {
             color: $link-hover;
             text-decoration: none;
@@ -25,10 +25,11 @@
 }
 
 .card-subtitle.text-muted {
-  text-transform: uppercase;
-  line-height: 20px;
-  color: #a8a8a8;
-  font-size: 11px;
+    color: #a8a8a8;
+    font-size: 11px;
+    line-height: 20px;
+    text-transform: uppercase;
+
 }
 
 .card-link {
