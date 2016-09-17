@@ -1,0 +1,227 @@
+body {
+  font-family: 'Montserrat', sans-serif; }
+
+.bg-faded {
+  background-color: #fff; }
+
+.navbar {
+  margin-bottom: 0; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000; }
+
+.navbar-collapse .container-fluid {
+  padding: 2rem 2.5rem;
+  border-bottom: 1px solid #55595c; }
+
+.navbar-collapse h4 {
+  color: #818a91; }
+
+.navbar-collapse .text-muted {
+  color: #818a91; }
+
+.about {
+  float: left;
+  max-width: 30rem;
+  margin-right: 3rem; }
+
+.social a {
+  font-weight: 500;
+  color: #eceeef; }
+
+.social a:hover {
+  color: #fff; }
+
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #44da82; }
+
+.jumbotron-heading {
+  color: #fff;
+  line-height: 93px;
+  font-size: 72px;
+  font-weight: 700 !important;
+  font-family: "Montserrat", arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin: 0; }
+
+.jumbotron p:first-of-type {
+  color: #fff; }
+
+.jumbotron .container {
+  max-width: 40rem; }
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.1); }
+
+/*.card > img {
+  margin-bottom: .75rem;
+}*/
+.card-block {
+  padding: 0.65rem; }
+
+.card-text {
+  font-size: 85%; }
+
+.card-title a {
+  color: #444;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold; }
+
+.card-subtitle.text-muted {
+  text-transform: uppercase;
+  line-height: 20px;
+  color: #a8a8a8;
+  font-size: 11px; }
+
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+#menu-filter ul {
+  margin-bottom: 20px;
+  padding: 0;
+  list-style-type: none; }
+
+#menu-filter li {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 25px;
+  font-weight: bold;
+  margin-right: 20px; }
+
+#menu-filter a {
+  color: #444;
+  text-decoration: none; }
+
+#menu-filter li.active a {
+  display: inline-block;
+  border-bottom: 3px solid #0275d8;
+  color: #0275d8;
+  padding: 0 0 10px 0; }
+
+#menu-filter li.active a:hover {
+  text-decoration: none; }
+
+.row #menu-filter {
+  padding-left: .9375rem; }
+
+.row .section-title {
+  padding-left: .9375rem;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-transform: none; }
+
+.row {
+  margin-bottom: 20px; }
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background: #262626;
+  font-size: 13px; }
+
+footer a {
+  color: #818a91; }
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none; }
+
+footer p {
+  margin-bottom: .25rem; }
+
+ul.footer-links {
+  list-style-type: none;
+  padding: 0; }
+
+footer .footer-links li {
+  padding: 0;
+  margin: 0 0 10px 0;
+  list-style: none; }
+
+footer h3 {
+  color: #fff;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  margin-bottom: 30px; }
+
+footer .footer-links.footer-social .icon {
+  font-size: 17px;
+  margin-right: 5px;
+  top: 2px;
+  position: relative;
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1; }
+
+footer .footer-logo {
+  color: #fff;
+  font-size: 24px;
+  font-family: "Montserrat", Arial, sans-serif;
+  margin-bottom: 20px; }
+
+footer .footer-widget {
+  margin-bottom: 30px; }
+
+.row.ad {
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 30px; }
+
+/* ********** MEDIA QUERIES / BREAKPOINTS **********
+************* Mobile First ********************** */
+/* Extra small devices (portrait phones, less than ???px)
+
+/* hide 2nd menu-filter list and above */
+#menu-filter ul li:nth-child(n+2) {
+  display: none; }
+
+h1.jumbotron-heading {
+  font-size: 20px;
+  line-height: 25px; }
+
+.jumbotron p {
+  font-size: 13px;
+  font-weight: normal; }
+
+/* Small devices (landscape phones, 34em /  544px and up) */
+/* true if width is greater or equal to 34em */
+@media (min-width: 34em) {
+  /* hide 4th menu-filter list and above */
+  #menu-filter ul li:nth-child(n+4) {
+    display: none; } }
+
+/* Medium devices (tablets, 48em / 768px and up) */
+@media screen and (min-width: 48em) {
+  #menu-filter ul li:nth-child(n+4) {
+    display: none; } }
+
+/* Large devices (desktops, 62em / 992px and up) */
+@media screen and (min-width: 62em) {
+  #menu-filter ul li:nth-child(n) {
+    display: initial; }
+  h1.jumbotron-heading {
+    line-height: 73px;
+    font-size: 72px; }
+  .jumbotron p {
+    font-size: 15px;
+    font-weight: normal; } }
+
+/* Extra large devices (large desktops, 75em / 1200px and up) */
+@media screen and (min-width: 75em) {
+  #menu-filter ul li:nth-child(n) {
+    display: initial; } }
+
+/* ********** END MEDIA QUERIES / BREAKPOINTS ********** */
