@@ -31,7 +31,7 @@ footer .footer-links li {
 footer h3 {
     color: #fff;
     font: {
-        family: "Montserrat", Arial, sans-serif;
+        family: $font-stack;
         size: 11px;
     }
     text-transform: uppercase;
@@ -54,7 +54,7 @@ footer .footer-logo {
     color: #fff;
     font: {
         size: 24px;
-        family: "Montserrat", Arial, sans-serif;
+        family: $font-stack;
     }
     margin-bottom: 20px;
 }
