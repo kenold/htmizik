@@ -1,0 +1,66 @@
+/* ********** MEDIA QUERIES / BREAKPOINTS **********
+************* Mobile First ********************** */
+
+/* Extra small devices (portrait phones, less than ???px)
+
+/* hide 2nd menu-filter list and above */
+  #menu-filter ul li:nth-child(n+2) {
+    display: none;
+  }
+
+  h1.jumbotron-heading {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .jumbotron p {
+    font-size: 13px;
+    font-weight: normal;
+  }
+
+/* Small devices (landscape phones, 34em /  544px and up) */
+/* true if width is greater or equal to 34em */
+
+@media (min-width: 34em) {
+
+  /* hide 4th menu-filter list and above */
+  #menu-filter ul li:nth-child(n+4) {
+    display: none;
+  }
+}
+
+/* Medium devices (tablets, 48em / 768px and up) */
+@media screen and (min-width: 48em) {
+
+  #menu-filter ul li:nth-child(n+4) {
+    display: none;
+  }
+}
+
+/* Large devices (desktops, 62em / 992px and up) */
+@media screen and (min-width: 62em) {
+
+  #menu-filter ul li:nth-child(n) {
+    display: initial;
+  }
+
+  h1.jumbotron-heading {
+    line-height: 73px;
+    font-size: 72px
+  }
+
+  .jumbotron p {
+    font-size: 15px;
+    font-weight: normal;
+  }
+}
+
+/* Extra large devices (large desktops, 75em / 1200px and up) */
+@media screen and (min-width: 75em) {
+
+  #menu-filter ul li:nth-child(n) {
+    display: initial;
+  }
+}
+
+/* ********** END MEDIA QUERIES / BREAKPOINTS ********** */

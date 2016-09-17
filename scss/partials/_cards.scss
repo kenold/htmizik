@@ -1,0 +1,29 @@
+.card {
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+/*.card > img {
+  margin-bottom: .75rem;
+}*/
+
+.card-block {
+    padding: 0.65rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+.card-title a {
+  color: #444;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.card-subtitle.text-muted {
+  text-transform: uppercase;
+  line-height: 20px;
+  color: #a8a8a8;
+  font-size: 11px;
+}
