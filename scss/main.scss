@@ -1,62 +1,17 @@
+$font-stack: 'Montserrat', Arial, sans-serif;
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $font-stack;
 }
 
 .bg-faded {
     background-color: #fff;
 }
 
-@import 'partials/_nav-main';
-
-.about {
-  float: left;
-  max-width: 30rem;
-  margin-right: 3rem;
-}
-
-.social a {
-  font-weight: 500;
-  color: #eceeef;
-}
-.social a:hover {
-  color: #fff;
-}
-
-@import 'partials/_slider';
-
+@import 'partials/_bootstrap';
 @import 'partials/_cards';
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-@import 'partials/_nav-filter.scss';
-
-.row .section-title {
-  padding-left: .9375rem;
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 28px;
-  letter-spacing: 0;
-  text-transform: none;
-}
-
-.row {
-  margin-bottom:  20px;
-}
-
-.row.ad {
-  background-color: #fff;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-@import 'partials/_media-queries';
-
-// footer
 @import 'partials/_footer';
+@import 'partials/_nav-filter';
+@import 'partials/_nav-main';
+@import 'partials/_media-queries';
+@import 'partials/_slider';
