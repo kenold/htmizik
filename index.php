@@ -2,7 +2,8 @@
 <body>
 
     <?php include('views/_nav.php'); ?>
-    <?php include('views/_slider.php'); ?>   
+
+    <?php include('views/_slider.php'); ?>
 
     <div class="container">
         <?php include 'views/_home.php'; ?>
