@@ -1,27 +1,26 @@
 body {
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif; }
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif; }
 
 .bg-faded {
   background-color: #fff; }
 
 .row .section-title {
-  padding-left: .9375rem;
-  font-size: 35px;
   color: #2c3e50;
-  font-weight: bold;
-  line-height: 28px;
+  font-size: 35px;
+  font-weight: 700;
   letter-spacing: 0;
-  text-transform: none;
+  line-height: 28px;
   margin: 50px 0 25px;
-  font-weight: 700; }
+  padding-left: .9375rem;
+  text-transform: none; }
 
 .row {
   margin-bottom: 20px; }
 
 .row.ad {
   background-color: #fff;
-  text-align: center;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  text-align: center; }
 
 .card {
   border: 1px solid rgba(0, 0, 0, 0.1); }
@@ -37,21 +36,21 @@ body {
   .card-title a {
     color: #444;
     font-size: 16px;
-    line-height: 20px;
-    font-weight: 700; }
+    font-weight: 700;
+    line-height: 20px; }
     .card-title a:hover {
       color: #44da82;
       text-decoration: none; }
 
 .card-subtitle.text-muted {
-  text-transform: uppercase;
-  line-height: 20px;
   color: #a8a8a8;
-  font-size: 11px; }
+  font-size: 11px;
+  line-height: 20px;
+  text-transform: uppercase; }
 
-.card-text {
+.card-link {
   font-size: 85%; }
-  .card-text a {
+  .card-link a {
     color: #808b96; }
 
 .left {
@@ -61,10 +60,10 @@ body {
   float: right; }
 
 footer {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
   background: #262626;
-  font-size: 13px; }
+  font-size: 13px;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
   footer p {
     margin-bottom: .25rem; }
   footer a {
@@ -73,23 +72,23 @@ footer {
       color: #fff;
       text-decoration: none; }
 
+footer h3 {
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  text-transform: uppercase; }
+
 ul.footer-links {
   list-style-type: none;
   padding: 0; }
 
 footer .footer-links li {
   padding: 0;
-  margin: 0 0 10px 0;
-  list-style: none; }
-
-footer h3 {
-  color: #fff;
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
-  font-size: 11px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-top: 15px;
-  margin-bottom: 30px; }
+  list-style: none;
+  margin: 0 0 10px 0; }
 
 footer .footer-links.footer-social .icon {
   font-size: 17px;
@@ -103,14 +102,14 @@ footer .footer-links.footer-social .icon {
 footer .footer-logo {
   color: #fff;
   font-size: 24px;
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
   margin-bottom: 20px; }
 
 footer .footer-widget {
   margin-bottom: 30px; }
 
 #menu-filter {
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
   font-size: 12px;
   letter-spacing: 1px;
   text-transform: uppercase; }
@@ -120,21 +119,21 @@ footer .footer-widget {
     list-style-type: none; }
   #menu-filter li {
     display: inline-block;
-    font-weight: normal;
     line-height: 25px;
     margin-right: 20px; }
 
-#menu-filter a {
+#menu-filter ul li a {
   color: #7f8c8d;
-  text-decoration: none; }
+  text-decoration: none;
+  font-weight: 500; }
 
-#menu-filter li.active a {
+#menu-filter ul li a:active {
   display: inline-block;
   border-bottom: 3px solid #0275d8;
   color: #0275d8;
   padding: 0 0 8px 0; }
 
-#menu-filter li.active a:hover {
+#menu-filter li a:hover {
   text-decoration: none; }
 
 .row #menu-filter {
