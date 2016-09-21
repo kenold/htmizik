@@ -1,3 +1,4 @@
+<!-- ************ TOP FILTERED ************ -->
 <div class="col-md-12">
     <div class="row">
         <div id="menu-filter">
@@ -14,8 +15,6 @@
 </div>
 
 <div id="content" class="col-md-9">
-
-    <!-- ************ TOP FILTERED ************ -->
     <div class="row filtered">
         <div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12">
             <div class="card">
